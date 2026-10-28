@@ -43,9 +43,8 @@
 
 ## PROGRAM :
 
+```
 import random
-
-
 class HealthMonitoringAgent:
     def __init__(self, patient_data):
         self.patient_data = patient_data
@@ -104,6 +103,8 @@ if __name__ == "__main__":
     health_monitoring_agent.actuators = health_actuators
 
     health_monitoring_agent.monitor_health()
+```
+
 
 ## OUTPUT:
 
